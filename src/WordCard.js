@@ -50,7 +50,6 @@ export default class WordCard extends Component {
                 this.setState({guess: [], attempt: this.state.attempt + 1})
             }
         }
-
     }
 
     render(){
@@ -58,6 +57,9 @@ export default class WordCard extends Component {
             <div>
                 {
                     Array.from(this.state.chars).map((c, i) => <CharacterCard value={c} key={i} activationHandler={this.activationHandler} attempt={this.state.attempt}/>)
+                }
+                {
+                    this.state.completed? "Yes" : "No"
                 }
             </div>
         )
