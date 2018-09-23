@@ -61,6 +61,9 @@ export default class WordCard extends Component {
                 {
                     this.state.completed? "Yes" : "No"
                 }
+                {
+                    this.state.attempt
+                }
             </div>
         )
     }
