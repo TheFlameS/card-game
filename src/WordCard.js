@@ -51,11 +51,6 @@ export default class WordCard extends Component {
             }
         }
 
-        // console.log("word " + this.state.word);
-        // console.log("chars " + this.state.chars);
-        // console.log("attempt " + this.state.attempt);
-        // console.log("guess " + this.state.guess);
-        // console.log("completed " + this.state.completed + " Done");
     }
 
     render(){
