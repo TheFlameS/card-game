@@ -19,13 +19,6 @@ export default class WordCard extends Component {
     constructor(props){
         super(props)
         this.state = prepareStateFromWord(this.props.value)
-
-        console.log(this.state.word);
-        console.log(this.state.chars);
-        console.log(this.state.attempt);
-        console.log(this.state.guess);
-        console.log(this.state.completed);
-
     }
 
     activationHandler = c => {
