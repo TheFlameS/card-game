@@ -31,15 +31,15 @@ export default class WordCard extends Component {
     activationHandler = c => {
         let guess = [...this.state.guess, c]
 
-        console.log("word " + this.state.word);
-        console.log("chars " + this.state.chars);
-        console.log("attempt " + this.state.attempt);
-        console.log("guess " + this.state.guess);
+        // console.log("word " + this.state.word);
+        // console.log("chars " + this.state.chars);
+        // console.log("attempt " + this.state.attempt);
+        // console.log("guess " + this.state.guess);
 
-        console.log(guess.join('').toString());
-        console.log(this.state.word);
+        // console.log(guess.join('').toString());
+        // console.log(this.state.word);
 
-        console.log("completed " + this.state.completed + " Done");
+        // console.log("completed " + this.state.completed + " Done");
 
         this.setState({guess})
         if(guess.length == this.state.chars.length){
